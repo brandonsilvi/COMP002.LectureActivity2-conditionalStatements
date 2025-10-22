@@ -40,3 +40,11 @@ break;
 }
 //I prefer the switch statements. It's easy for me to understand because it simply checks the value of the variable against each case.
 //I think the switch statement is cleaner and easier to read as its a bit more simple to check for errors.
+
+for (let i = 1; i <= 100; i++) {console.log(i);}
+//prints number 1-100
+
+for (let i = 1; i <= 100; i++) {
+if (i % 2 === 0) {
+console.log("!");
+} else {console.log(i)}
