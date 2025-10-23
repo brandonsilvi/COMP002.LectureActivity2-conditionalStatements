@@ -20,6 +20,9 @@ console.log("You got an F, it's time for tutoring!");
 //the switch statement
 let gradeCategory = Math.floor(myGrade / 10);
 
+//the statement divides the grade by 10 and rounds down to the nearest whole number
+//the result is then checked against each case in the switch statement
+//for example a grade of 42 divided by 10 is 4.2 which rounds down to 4
 switch (gradeCategory) {
 case 10:
 case 9:
@@ -44,8 +47,37 @@ break;
 for (let i = 1; i <= 100; i++) {console.log(i);}
 //prints number 1-100
 
+///////////////////////////////////////////////////////////
+//prints only even numbers from 1-100
+//this operator % is the modulus operator. It returns the remainder of a division operation.
+//in this case, i % 2 checks if the number i is divisible by 2 without a remainder.
+//if the result is 0, it means the number is even.
 for (let i = 1; i <= 100; i++) {
 if (i % 2 !== 0) {
 console.log("!");
 } else {console.log(i)}
 }
+
+
+
+//////////////////////////////////////////////////////////
+//for loop syntax
+
+/*for (initialization; condition; increment) {
+code to be executed
+}*/
+
+
+
+//while loop syntax
+
+/*while (condition) {
+code to be executed
+}*/
+
+
+//do while loop syntax
+
+/*do {
+code to be executed
+} while (condition);*/
