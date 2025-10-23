@@ -4,7 +4,7 @@ if (myGrade >= 90) {
 console.log("Well done you earned an A!");
 }
 else if (myGrade >= 80) {
-console.log("You got a good work B!");
+console.log("You did well, B!");
 }
 else if (myGrade >= 70) {
 console.log("You got a C!");
@@ -15,7 +15,7 @@ console.log("You've got work to do because you got a D!");
 else {
 console.log("You got an F, it's time for tutoring!");
 }
-//the else statment covers anything below the value in this case 60
+//the else statement covers anything below the value in this case 60
 
 //the switch statement
 let gradeCategory = Math.floor(myGrade / 10);
